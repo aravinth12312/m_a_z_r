@@ -15,6 +15,7 @@ def manipulate(data):
 		temp.append(data[:len(data)//2])
 	res="".join(temp)
 	return res
-data="water"
+
+data=input()
 n=len(data)
 traingle(manipulate(data),n)
