@@ -13,7 +13,9 @@ def manipulate(data):
 	if len(data)%2==1:
 		temp.append(data[len(data)//2:])
 		temp.append(data[:len(data)//2])
-	res="".join(temp)
+		res="".join(temp)
+	else:
+		res=data
 	return res
 
 data=input()
