@@ -22,3 +22,9 @@ def manipulate(data):
 data=input()
 n=len(data)
 traingle(manipulate(data),n)
+#
+#
+#
+#
+#
+#
